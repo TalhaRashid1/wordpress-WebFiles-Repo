@@ -1,0 +1,394 @@
+/*
+Theme Name:     Construction Choice
+Theme URI:      https://sparklewpthemes.com/wordpress-themes/construction-choice/
+Author:         sparklewpthemes
+Author URI:     https://sparklewpthemes.com/
+Description:    Construction Choice is a perfect and professional advanced multipurpose impressive, engaging and fully customizable, responsive free business WordPress theme that is easy to use. Construction Choice multipurpose theme which helps you to create different types of business websites ( consultant, finance, agency, industries, education, fashion, health & medical, wedding, photography, gym, architecture, lawyer ) and many more websites with the helps theme default customizer features and 10+ custom elementor addon. Construction Choice theme is also fully compatible with the latest page builders plugins ( Elementor, SiteOrigin, Visual Composer ) and also created 10+ different widget, which you can easily implement in any page or post to create, edit and update beautifully page design, also theme has some exciting features like ( reorder each home section ), cross-browser compatible, translation ready, site speed optimized, SEO friendly theme and also supports WooCommerce and some other external plugins like Jetpack, Polylang, Yoast SEO, Contact Form 7 and many more plugins. If you face any problem related to our theme, you can refer to our theme documentation or contact our friendly support team.
+Version:        1.0.1
+Tested up to:   5.7
+Requires PHP:   7.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       construction-light
+Text Domain:    construction-choice
+Tags:           one-column, two-columns, right-sidebar, left-sidebar, custom-header, custom-background, custom-menu, translation-ready, featured-images, theme-options, custom-logo, e-commerce, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Construction Choice is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+sparklewpthemes is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+.nav-classic .header-middle-inner .contact-info{
+	width: 70%;
+}
+.nav-classic .site-branding h1{
+	position: relative;
+}
+.nav-classic .site-branding h1{
+
+}
+.box-header-nav .main-menu .page_item.page_item_has_children>a::after,
+ .box-header-nav .main-menu>.menu-item.menu-item-has-children>a::after {
+    color: #333;
+    font-weight: 700;
+}
+.box-header-nav .main-menu .page_item.page_item_has_children>a:hover:after,
+ .box-header-nav .main-menu>.menu-item.menu-item-has-children>a:hover:after {
+    color: #fff;
+}
+.nav-classic .extralmenu-wrap ul li a.searchicon {
+     color: #7d7d7d;
+     font-size: 15px;
+     margin-right: 0px;
+     padding: 5px 10px;
+}
+.nav-classic .extralmenu-wrap {
+	display: flex;
+	align-items: center;
+    text-align: right;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    bottom: 0%
+}
+.extralmenu-wrap ul {
+    display: flex;
+    border: 1px solid #ffc107;
+    border-radius: 20px;
+}
+.menu-item-search-text{
+	background-color: #ffc107;
+	border-radius: 0px 20px 20px 0px;
+	padding: 5px 10px;
+	color: #fff;
+
+}
+li.menu-item-search{
+	padding: 5px 10px;
+}
+.quickcontact .get-tuch i {
+    font-size: 20px!important;
+    border: 2px solid #ffb922;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 35px;
+}
+.brandinglogo-wrap a {
+	background-color: #ffb922;
+    color: #fff;
+    display: block;
+}
+p.site-description {
+    /* background-color: #ffb922; */
+    color: #fff;
+    text-align: left!important;
+    padding-bottom: 14px;
+}
+.nav_border{
+	border-bottom: 1px solid #ddd;
+}
+.nav-classic .header-middle-inner{
+	margin: 0px;
+	display: flex;
+	align-items: center;
+}
+.brandinglogo-wrap{
+	position: relative;
+	background-color: #ffb922;
+	padding: 0px 10px;
+}
+.brandinglogo-wrap:before {
+    content: "";
+    background-color: #ffb922;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+}
+.brandinglogo-wrap:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 83px solid #ffb922;
+    border-right: 50px solid transparent;
+    position: absolute;
+    right: -45px;
+    bottom: 0;
+}
+.btn-area .btn {
+    border-radius: 30px;
+    padding: 15px 22px;
+}
+.cons_light_team_layout_two.layout_one .box {
+    border-radius: 190px 190px 0px 0px !important;
+    padding: 0;
+}
+img.attachment-construction-choice-team.size-construction-choice-team.wp-post-image {
+    border-radius: 50%;
+    height: 236px;
+    width: 236px;
+    padding: 20px;
+}
+.banner-slider.owl-carousel.features-slider-1, .banner-slider.owl-carousel.features-slider-2{
+	margin-top: 0px;
+}
+.cons_light_team_layout_two ul.sp_socialicon li a i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.cons_light_team_layout_two ul.sp_socialicon li {
+    margin-right: 5px;
+}
+ .contact-info .quickcontact .get-tuch {
+     margin-bottom: 0px!important; 
+}
+.get-tuch ul li h4{
+	font-size: 16px!important;
+	font-weight: 400;
+}
+.box-header-nav .main-menu .page_item a, .box-header-nav .main-menu>.menu-item>a {
+    display: inline-block;
+    padding: 10px 8px;
+    font-weight: 500!important;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #343434;
+}
+.box-header-nav .main-menu{
+	margin: 0px;
+}
+.nav-classic .nav-menu .box-header-nav {
+    background: #fff;
+}
+.social_media_part ul{
+	list-style: none;
+	margin-bottom: 0px;
+}
+.social_media_part ul li {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 5px;
+}
+.social_media_part ul.sp_socialicon li a i{
+     background: unset!important; 
+     font-size: 16px;
+     color: #555;
+}
+span.super-title {
+    background-color: #ffb922;
+    border-radius: 30px;
+    padding: 12px 50px;
+    margin-bottom:30px;
+    display: inline-block;
+}
+.video_calltoaction_wrap .box-shadow-ripples{
+	margin-left: 50px;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+}
+.about_us_front .achivement-items ul li:last-child {
+    border-right: 2px solid #ffb922;
+}
+.achivement-wrapper {
+    text-align: center;
+    border: 5px solid #ffb922;
+    padding: 12px;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.about_us_front .achivement-items ul {
+	display: flex;
+}
+.about_us_front .achivement-items ul li {
+     border-bottom: 2px solid #ffb922;
+     border-right: 5px solid #ffb922;
+     margin: 0px 40px;
+     padding: 10px;
+     position: relative;
+     display: flex;
+     justify-content: center;
+}
+.achivement-wrapper i{
+	font-size: 50px;
+	color: #ffb922;
+}
+.text-icon-wrap {
+    background-color: #fff;
+    position: absolute;
+    bottom: -50px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+span.medium {
+    margin-bottom: 10px;
+}
+span.small-title {
+    border-bottom: 2px solid #ffba24;
+}
+.about-title{
+	margin-top: 20px;
+}
+.align-part{
+	display: flex;
+	align-items: center;
+}
+.align-part img{
+	height: 500px;
+	width: 500px;
+	object-fit: cover;
+}
+.cons_light_counter_part {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: #333;
+}
+.cons_light_counter-title,span.medium {
+    color: #646464;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 60px;
+    font-family: 'El Messiri', sans-serif;
+}
+.cons_light_counter_part .text-icon-wrap{
+	bottom: -20px;
+	left: unset;
+}
+.cons_light_counter_part .achivement-wrapper{
+	height: 160px;
+	width: 160px;
+}
+.cons_light_counter_wrap:before {
+    background: rgb(255 255 255 / 100%);
+}
+.cons_light_counter_wrapper {
+    font-size: 35px;
+    font-weight: 900;
+    color: #9b9b9b;
+    margin-top: 10px;
+}
+.cons_light_counter_wrap .section-title,.cons_light_counter_wrap {
+    color: #000;
+}
+/*blog*/
+.articlesListing .article .blog-post-thumbnail .post-thumbnail img {
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+.blog-post-thumbnail .social-share {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #ffc107, rgba(255, 193, 7, 0.7), #ffc107);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blog-post-thumbnail .social-share a i{
+	color: #fff;
+	padding: 20px 20px;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+}
+span.time-diffrence {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #ffc107;
+    color: #fff;
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.cons_light_team_layout_two ul.sp_socialicon li a i{
+	background: #ffb923 !important;
+}
+.cons_light_portfolio-wrap:hover{
+	border: 5px solid #FFC107;
+	transition: all .1s ease;
+}
+.cons_light_portfolio:after{
+	content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ffc107;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    visibility: hidden;
+}
+.cons_light_portfolio:hover:after{
+	visibility: visible;
+	transition: all .1s ease;
+}
+.cons_light_portfolio:after:hover{
+	background-color: #ffc107;
+
+}
+.cons_light_portfolio-cat-name:hover, .cons_light_portfolio-cat-name.active {
+    border-radius: 36px;
+}
+.cons_light_portfolio-cat-name{
+	border-radius: 36px;
+	background-color: #ffc107;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400!important;
+}
+.cons_light_portfolio-caption {
+    display: none;
+}
+.brandinglogo-wrap img{
+	padding: 15px 0px;
+}
+.articlesListing .entry-content p{
+    line-height: 1.2;
+}
+.articlesListing .entry-content a{
+    text-decoration: underline;
+}
+.entry-content a{
+    color: unset;
+}
+@media(max-width: 1024px){
+	.site-branding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
+@media(max-width: 767px){
+	.quickcontact,.sp_socialicon {
+        display: none;
+    }
+    span.super-title{
+        padding: 5px 30px;
+        margin-bottom: 0px;
+    }
+}
